@@ -1,0 +1,456 @@
+Exploding /home/eerilio/.m2/repository/org/jenkins-ci/main/jenkins-war/1.580.1/jenkins-war-1.580.1-war-for-test.jar into /home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/eerilio/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.1/log4j-slf4j-impl-2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/eerilio/.m2/repository/org/slf4j/slf4j-jdk14/1.7.7/slf4j-jdk14-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+15:39:29.280 [main] INFO  org.mortbay.log - Logging to org.apache.logging.slf4j.Log4jLogger@2289aca5 via org.mortbay.log.Slf4jLog
+15:39:29.281 [main] DEBUG org.mortbay.log - Container Server@79e18e38 + org.mortbay.jetty.webapp.WebAppContext@29a60c27{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test} as handler
+15:39:29.282 [main] DEBUG org.mortbay.log - Container SecurityHandler@1849db1a + ServletHandler@69c79f09 as handler
+15:39:29.282 [main] DEBUG org.mortbay.log - Container SessionHandler@1ca25c47 + SecurityHandler@1849db1a as handler
+15:39:29.282 [main] DEBUG org.mortbay.log - Container SessionHandler@1ca25c47 + org.mortbay.jetty.servlet.HashSessionManager@5fcacc0 as sessionManager
+15:39:29.283 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.webapp.WebAppContext@29a60c27{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test} + SessionHandler@1ca25c47 as handler
+15:39:29.283 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.webapp.WebAppContext@29a60c27{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test} + ErrorPageErrorHandler@533b266e as error
+15:39:29.290 [main] DEBUG org.mortbay.log - Container Server@79e18e38 + org.jvnet.hudson.test.ThreadPoolImpl@2cf23c81 as threadpool
+15:39:29.292 [main] DEBUG org.mortbay.log - Container Server@79e18e38 + SocketConnector@0.0.0.0:0 as connector
+15:39:29.299 [main] DEBUG org.mortbay.log - Container Server@79e18e38 + Realm[default]==[bob, alice, charlie] as realm
+15:39:29.299 [main] INFO  org.mortbay.log - jetty-6.1.26
+15:39:29.306 [main] DEBUG org.mortbay.log - started [Realm[default]==[bob, alice, charlie], null]
+15:39:29.307 [main] DEBUG org.mortbay.log - started [org.jvnet.hudson.test.ThreadPoolImpl@2cf23c81, null]
+15:39:29.307 [main] DEBUG org.mortbay.log - Thread Context class loader is: sun.misc.Launcher$AppClassLoader@42a57993
+15:39:29.308 [main] DEBUG org.mortbay.log - Parent class loader is: sun.misc.Launcher$ExtClassLoader@6d8a00e3
+15:39:29.316 [main] DEBUG org.mortbay.log - Checking Resource aliases
+15:39:29.317 [main] DEBUG org.mortbay.log - Created temp dir work/Jetty_0_0_0_0_0_jenkins.for.test___.bj8wp3 for org.mortbay.jetty.webapp.WebAppContext@29a60c27{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}
+15:39:29.322 [main] DEBUG org.mortbay.log - parse: jar:file:/home/eerilio/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar!/org/mortbay/jetty/webapp/webdefault.xml
+15:39:29.327 [main] DEBUG org.mortbay.log - parsing: sid=jar:file:/home/eerilio/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar!/org/mortbay/jetty/webapp/webdefault.xml,pid=null
+15:39:29.370 [main] DEBUG org.mortbay.log - ContextParam: org.mortbay.jetty.webapp.NoTLDJarPattern=start.jar|ant-.*\.jar|dojo-.*\.jar|jetty-.*\.jar|jsp-api-.*\.jar|junit-.*\.jar|servlet-api-.*\.jar|dnsns\.jar|rt\.jar|jsse\.jar|tools\.jar|sunpkcs11\.jar|sunjce_provider\.jar|xerces.*\.jar
+15:39:29.377 [main] INFO  org.mortbay.log - NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+15:39:29.389 [main] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:29.389 [main] DEBUG org.mortbay.log - pathFilters=[]
+15:39:29.389 [main] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:29.389 [main] DEBUG org.mortbay.log - servletPathMap=null
+15:39:29.390 [main] DEBUG org.mortbay.log - servletNameMap=[null, null]
+15:39:29.390 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + default as servlet
+15:39:29.390 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + jsp as servlet
+15:39:29.391 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + (S=default,[/]) as servletMapping
+15:39:29.391 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + (S=jsp,[*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]) as servletMapping
+15:39:29.394 [main] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:29.394 [main] DEBUG org.mortbay.log - pathFilters=[]
+15:39:29.395 [main] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:29.396 [main] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /=default}
+15:39:29.397 [main] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp}
+15:39:29.399 [main] DEBUG org.mortbay.log - Try webapp=file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/, exists=true, directory=true
+15:39:29.409 [main] DEBUG org.mortbay.log - webapp=file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/
+15:39:29.410 [main] DEBUG org.mortbay.log - parse: file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/WEB-INF/web.xml
+15:39:29.412 [main] DEBUG org.mortbay.log - parsing: sid=file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/WEB-INF/web.xml,pid=null
+15:39:29.431 [main] DEBUG org.mortbay.log - Element env-entry not handled in org.mortbay.jetty.webapp.WebXmlConfiguration@6e46d9f4
+15:39:29.432 [main] DEBUG org.mortbay.log - <env-entry>
+    <env-entry-name>HUDSON_HOME</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value/>
+  </env-entry>
+15:39:29.433 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + encoding-filter as filter
+15:39:29.433 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + compression-filter as filter
+15:39:29.434 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + authentication-filter as filter
+15:39:29.434 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + csrf-filter as filter
+15:39:29.434 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + plugins-filter as filter
+15:39:29.435 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + (F=encoding-filter,[/*],[],0) as filterMapping
+15:39:29.435 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + (F=compression-filter,[/*],[],0) as filterMapping
+15:39:29.435 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + (F=authentication-filter,[/*],[],0) as filterMapping
+15:39:29.435 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + (F=csrf-filter,[/*],[],0) as filterMapping
+15:39:29.436 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + (F=plugins-filter,[/*],[],0) as filterMapping
+15:39:29.436 [main] DEBUG org.mortbay.log - filterNameMap={csrf-filter=csrf-filter, encoding-filter=encoding-filter, compression-filter=compression-filter, plugins-filter=plugins-filter, authentication-filter=authentication-filter}
+15:39:29.436 [main] DEBUG org.mortbay.log - pathFilters=[(F=encoding-filter,[/*],[],0), (F=compression-filter,[/*],[],0), (F=authentication-filter,[/*],[],0), (F=csrf-filter,[/*],[],0), (F=plugins-filter,[/*],[],0)]
+15:39:29.438 [main] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:29.438 [main] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /=default}
+15:39:29.438 [main] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp}
+15:39:29.440 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + Stapler as servlet
+15:39:29.447 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 + (S=Stapler,[/*]) as servletMapping
+15:39:29.447 [main] DEBUG org.mortbay.log - filterNameMap={csrf-filter=csrf-filter, encoding-filter=encoding-filter, compression-filter=compression-filter, plugins-filter=plugins-filter, authentication-filter=authentication-filter}
+15:39:29.448 [main] DEBUG org.mortbay.log - pathFilters=[(F=encoding-filter,[/*],[],0), (F=compression-filter,[/*],[],0), (F=authentication-filter,[/*],[],0), (F=csrf-filter,[/*],[],0), (F=plugins-filter,[/*],[],0)]
+15:39:29.448 [main] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:29.449 [main] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /*=Stapler, /=default}
+15:39:29.450 [main] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp, Stapler=Stapler}
+15:39:29.456 [main] DEBUG org.mortbay.log - Container Server@79e18e38 + org.mortbay.jetty.servlet.HashSessionIdManager@791cbf87 as sessionIdManager
+15:39:29.458 [main] DEBUG org.mortbay.log - Init SecureRandom.
+15:39:29.458 [main] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.HashSessionIdManager@791cbf87, null]
+15:39:29.461 [main] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.HashSessionManager@5fcacc0, null]
+15:39:29.462 [main] DEBUG org.mortbay.log - filterNameMap={csrf-filter=csrf-filter, encoding-filter=encoding-filter, compression-filter=compression-filter, plugins-filter=plugins-filter, authentication-filter=authentication-filter}
+15:39:29.463 [main] DEBUG org.mortbay.log - pathFilters=[(F=encoding-filter,[/*],[],0), (F=compression-filter,[/*],[],0), (F=authentication-filter,[/*],[],0), (F=csrf-filter,[/*],[],0), (F=plugins-filter,[/*],[],0)]
+15:39:29.463 [main] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:29.463 [main] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /*=Stapler, /=default}
+15:39:29.463 [main] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp, Stapler=Stapler}
+15:39:29.463 [main] DEBUG org.mortbay.log - starting [ServletHandler@69c79f09, null]
+15:39:29.464 [main] DEBUG org.mortbay.log - started [ServletHandler@69c79f09, null]
+15:39:29.464 [main] DEBUG org.mortbay.log - starting [SecurityHandler@1849db1a, null]
+15:39:29.464 [main] DEBUG org.mortbay.log - started [SecurityHandler@1849db1a, null]
+15:39:29.464 [main] DEBUG org.mortbay.log - starting [SessionHandler@1ca25c47, null]
+15:39:29.464 [main] DEBUG org.mortbay.log - started [SessionHandler@1ca25c47, null]
+15:39:29.464 [main] DEBUG org.mortbay.log - starting [org.mortbay.jetty.webapp.WebAppContext@29a60c27{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}, null]
+15:39:29.464 [main] DEBUG org.mortbay.log - starting [ErrorPageErrorHandler@533b266e, null]
+15:39:29.465 [main] DEBUG org.mortbay.log - started [ErrorPageErrorHandler@533b266e, null]
+15:39:29.468 [main] DEBUG org.mortbay.log - Holding [class hudson.util.CharacterEncodingFilter, null]
+15:39:29.469 [main] DEBUG org.mortbay.log - started [encoding-filter, null]
+15:39:29.471 [main] DEBUG org.mortbay.log - Holding [class org.kohsuke.stapler.compression.CompressionFilter, null]
+15:39:29.472 [main] DEBUG org.mortbay.log - started [compression-filter, null]
+15:39:29.473 [main] DEBUG org.mortbay.log - Holding [class hudson.security.HudsonFilter, null]
+15:39:29.476 [main] DEBUG org.mortbay.log - started [authentication-filter, null]
+15:39:29.477 [main] DEBUG org.mortbay.log - Holding [class hudson.security.csrf.CrumbFilter, null]
+15:39:29.478 [main] DEBUG org.mortbay.log - started [csrf-filter, null]
+15:39:29.479 [main] DEBUG org.mortbay.log - Holding [class hudson.util.PluginServletFilter, null]
+15:39:29.479 [main] DEBUG org.mortbay.log - started [plugins-filter, null]
+15:39:29.481 [main] DEBUG org.mortbay.log - Holding [class org.kohsuke.stapler.Stapler, null]
+15:39:29.483 [main] DEBUG org.mortbay.log - started [Stapler, null]
+15:39:29.485 [main] DEBUG org.mortbay.log - Holding [class org.mortbay.jetty.servlet.DefaultServlet, null]
+15:39:29.509 [main] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.DefaultServlet$NIOResourceCache@5e77f0f4, null]
+15:39:29.512 [main] DEBUG org.mortbay.log - started [org.mortbay.jetty.ResourceCache@455351c4, null]
+15:39:29.512 [main] DEBUG org.mortbay.log - resource base = file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/
+15:39:29.512 [main] DEBUG org.mortbay.log - started [default, null]
+15:39:29.514 [main] DEBUG org.mortbay.log - Holding [class org.mortbay.servlet.NoJspServlet, null]
+15:39:29.514 [main] DEBUG org.mortbay.log - started [jsp, null]
+15:39:29.515 [main] DEBUG org.mortbay.log - started [org.mortbay.jetty.webapp.WebAppContext@29a60c27{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}, null]
+15:39:29.516 [main] DEBUG org.mortbay.log - starting [Server@79e18e38, null]
+15:39:29.524 [main] INFO  org.mortbay.log - Started [SocketConnector@0.0.0.0:47056, null]
+15:39:29.525 [main] DEBUG org.mortbay.log - started [SocketConnector@0.0.0.0:47056, null]
+15:39:29.525 [main] DEBUG org.mortbay.log - started [Server@79e18e38, null]
+May 14, 2015 3:39:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 14, 2015 3:39:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 14, 2015 3:39:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 14, 2015 3:39:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 14, 2015 3:39:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 14, 2015 3:39:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+15:39:45.569 [default-akka.actor.default-dispatcher-4] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:45.576] [default-akka.actor.default-dispatcher-4] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#299136210] to Actor[akka://default/deadLetters] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:39:45.592 [default-akka.actor.default-dispatcher-4] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:45.593] [default-akka.actor.default-dispatcher-4] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#299136210] to Actor[akka://default/deadLetters] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+May 14, 2015 3:39:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+15:39:45.773 [default-akka.actor.default-dispatcher-5] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:45.773] [default-akka.actor.default-dispatcher-5] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#299136210] to Actor[akka://default/deadLetters] was not delivered. [3] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:39:45.816 [default-akka.actor.default-dispatcher-2] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+15:39:45.817 [default-akka.actor.default-dispatcher-2] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:45.817] [default-akka.actor.default-dispatcher-5] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#299136210] to Actor[akka://default/deadLetters] was not delivered. [4] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[INFO] [05/14/2015 15:39:45.817] [default-akka.actor.default-dispatcher-5] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#299136210] to Actor[akka://default/deadLetters] was not delivered. [5] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:39:45.820 [main] DEBUG org.mortbay.log - Container Server@3dedb4a6 + ContextHandlerCollection@57f64f5e as handler
+15:39:45.820 [main] DEBUG org.mortbay.log - Container ContextHandlerCollection@57f64f5e + org.mortbay.jetty.servlet.Context@415e0bcb{/,null} as handler
+15:39:45.824 [main] DEBUG org.mortbay.log - Container SessionHandler@194152cf + ServletHandler@49d98dc5 as handler
+15:39:45.825 [main] DEBUG org.mortbay.log - Container SessionHandler@194152cf + org.mortbay.jetty.servlet.HashSessionManager@2c30b71f as sessionManager
+15:39:45.825 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@415e0bcb{/,null} + SessionHandler@194152cf as handler
+15:39:45.825 [main] DEBUG org.mortbay.log - Container ServletHandler@49d98dc5 + org.jvnet.hudson.test.JavaNetReverseProxy-495051009 as servlet
+15:39:45.825 [main] DEBUG org.mortbay.log - Container ServletHandler@49d98dc5 + (S=org.jvnet.hudson.test.JavaNetReverseProxy-495051009,[/]) as servletMapping
+15:39:45.826 [main] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:45.826 [main] DEBUG org.mortbay.log - pathFilters=null
+15:39:45.826 [main] DEBUG org.mortbay.log - servletFilterMap=null
+15:39:45.826 [main] DEBUG org.mortbay.log - servletPathMap={/=org.jvnet.hudson.test.JavaNetReverseProxy-495051009}
+15:39:45.826 [main] DEBUG org.mortbay.log - servletNameMap={org.jvnet.hudson.test.JavaNetReverseProxy-495051009=org.jvnet.hudson.test.JavaNetReverseProxy-495051009}
+15:39:45.826 [main] DEBUG org.mortbay.log - Container Server@3dedb4a6 + SocketConnector@0.0.0.0:0 as connector
+15:39:45.826 [main] INFO  org.mortbay.log - jetty-6.1.26
+15:39:45.837 [main] DEBUG org.mortbay.log - Container Server@3dedb4a6 + org.mortbay.thread.QueuedThreadPool@2577d6c8 as threadpool
+15:39:45.849 [main] DEBUG org.mortbay.log - started [org.mortbay.thread.QueuedThreadPool@2577d6c8, null]
+15:39:45.850 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@415e0bcb{/,null} + ErrorHandler@5e8a459 as errorHandler
+15:39:45.850 [main] DEBUG org.mortbay.log - Container Server@3dedb4a6 + org.mortbay.jetty.servlet.HashSessionIdManager@43d455c9 as sessionIdManager
+15:39:45.850 [main] DEBUG org.mortbay.log - Init SecureRandom.
+15:39:45.851 [main] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.HashSessionIdManager@43d455c9, null]
+15:39:45.865 [main] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.HashSessionManager@2c30b71f, null]
+15:39:45.865 [main] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:45.865 [main] DEBUG org.mortbay.log - pathFilters=null
+15:39:45.866 [main] DEBUG org.mortbay.log - servletFilterMap=null
+15:39:45.866 [main] DEBUG org.mortbay.log - servletPathMap={/=org.jvnet.hudson.test.JavaNetReverseProxy-495051009}
+15:39:45.866 [main] DEBUG org.mortbay.log - servletNameMap={org.jvnet.hudson.test.JavaNetReverseProxy-495051009=org.jvnet.hudson.test.JavaNetReverseProxy-495051009}
+15:39:45.866 [main] DEBUG org.mortbay.log - starting [ServletHandler@49d98dc5, null]
+15:39:45.866 [main] DEBUG org.mortbay.log - started [ServletHandler@49d98dc5, null]
+15:39:45.866 [main] DEBUG org.mortbay.log - starting [SessionHandler@194152cf, null]
+15:39:45.867 [main] DEBUG org.mortbay.log - started [SessionHandler@194152cf, null]
+15:39:45.867 [main] DEBUG org.mortbay.log - starting [org.mortbay.jetty.servlet.Context@415e0bcb{/,null}, null]
+15:39:45.867 [main] DEBUG org.mortbay.log - starting [ErrorHandler@5e8a459, null]
+15:39:45.867 [main] DEBUG org.mortbay.log - started [ErrorHandler@5e8a459, null]
+15:39:45.867 [main] DEBUG org.mortbay.log - started [org.jvnet.hudson.test.JavaNetReverseProxy-495051009, null]
+15:39:45.867 [main] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.Context@415e0bcb{/,null}, null]
+15:39:45.868 [main] DEBUG org.mortbay.log - starting [ContextHandlerCollection@57f64f5e, null]
+15:39:45.868 [main] DEBUG org.mortbay.log - started [ContextHandlerCollection@57f64f5e, null]
+15:39:45.868 [main] DEBUG org.mortbay.log - starting [Server@3dedb4a6, null]
+15:39:45.868 [main] INFO  org.mortbay.log - Started [SocketConnector@0.0.0.0:33233, null]
+15:39:45.885 [main] DEBUG org.mortbay.log - started [SocketConnector@0.0.0.0:33233, null]
+15:39:45.885 [main] DEBUG org.mortbay.log - started [Server@3dedb4a6, null]
+15:39:45.892 [default-akka.actor.default-dispatcher-4] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:45.893] [default-akka.actor.default-dispatcher-4] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#299136210] to Actor[akka://default/deadLetters] was not delivered. [6] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:39:46.497 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - REQUEST /closures/ on org.mortbay.jetty.HttpConnection@30ab7f83
+15:39:46.498 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - sessionManager=org.mortbay.jetty.servlet.HashSessionManager@5fcacc0
+15:39:46.498 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - session=null
+15:39:46.499 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - servlet=Stapler
+15:39:46.500 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - chain=encoding-filter->compression-filter->authentication-filter->csrf-filter->plugins-filter->Stapler
+15:39:46.500 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - servlet holder=Stapler
+15:39:46.500 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - call filter encoding-filter
+15:39:46.501 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - call filter compression-filter
+15:39:46.504 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - call filter authentication-filter
+15:39:46.504 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - call filter csrf-filter
+15:39:46.505 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - call filter plugins-filter
+15:39:46.506 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - call servlet Stapler
+15:39:47.372 [Jetty Thread Pool - /closures/?uuid=672fe7cb-e997-4870-b350-608aa831311c] DEBUG org.mortbay.log - RESPONSE /closures/  200
+15:39:48.897 [main] DEBUG org.mortbay.log - stopped [Realm[default]==[bob, alice, charlie], null]
+15:39:48.904 [main] INFO  org.mortbay.log - Stopped [SocketConnector@0.0.0.0:47056, null]
+15:39:48.913 [main] DEBUG org.mortbay.log - stopped [SocketConnector@0.0.0.0:0, null]
+15:39:48.913 [main] DEBUG org.mortbay.log - stopping [Server@79e18e38, null]
+15:39:48.913 [main] DEBUG org.mortbay.log - stopping [org.mortbay.jetty.webapp.WebAppContext@29a60c27{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}, null]
+15:39:48.913 [main] DEBUG org.mortbay.log - stopping [SessionHandler@1ca25c47, null]
+15:39:48.913 [main] DEBUG org.mortbay.log - stopping [SecurityHandler@1849db1a, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopping [ServletHandler@69c79f09, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopped [plugins-filter, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopped [csrf-filter, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopped [authentication-filter, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopped [compression-filter, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopped [encoding-filter, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopped [Stapler, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopped [jsp, null]
+15:39:48.914 [main] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.servlet.DefaultServlet$NIOResourceCache@5e77f0f4, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.ResourceCache@455351c4, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - stopped [default, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - stopped [ServletHandler@69c79f09, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - stopped [SecurityHandler@1849db1a, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.servlet.HashSessionManager@5fcacc0, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - stopped [SessionHandler@1ca25c47, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - stopping [ErrorPageErrorHandler@533b266e, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - stopped [ErrorPageErrorHandler@533b266e, null]
+15:39:48.915 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - plugins-filter as filter
+15:39:48.916 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - csrf-filter as filter
+15:39:48.916 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - authentication-filter as filter
+15:39:48.916 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - compression-filter as filter
+15:39:48.916 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - encoding-filter as filter
+15:39:48.916 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - (F=plugins-filter,[/*],[],0) as filterMapping
+15:39:48.916 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - (F=csrf-filter,[/*],[],0) as filterMapping
+15:39:48.916 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - (F=authentication-filter,[/*],[],0) as filterMapping
+15:39:48.916 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - (F=compression-filter,[/*],[],0) as filterMapping
+15:39:48.925 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - (F=encoding-filter,[/*],[],0) as filterMapping
+15:39:48.926 [main] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:48.927 [main] DEBUG org.mortbay.log - pathFilters=null
+15:39:48.927 [main] DEBUG org.mortbay.log - servletFilterMap=null
+15:39:48.927 [main] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /*=Stapler, /=default}
+15:39:48.927 [main] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp, Stapler=Stapler}
+15:39:48.928 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - Stapler as servlet
+15:39:48.928 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - jsp as servlet
+15:39:48.928 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - default as servlet
+15:39:48.928 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - (S=Stapler,[/*]) as servletMapping
+15:39:48.928 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - (S=jsp,[*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]) as servletMapping
+15:39:48.929 [main] DEBUG org.mortbay.log - Container ServletHandler@69c79f09 - (S=default,[/]) as servletMapping
+15:39:48.929 [main] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:48.929 [main] DEBUG org.mortbay.log - pathFilters=null
+15:39:48.929 [main] DEBUG org.mortbay.log - servletFilterMap=null
+15:39:48.929 [main] DEBUG org.mortbay.log - servletPathMap=null
+15:39:48.929 [main] DEBUG org.mortbay.log - servletNameMap=[null, null]
+15:39:48.930 [main] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.webapp.WebAppContext@29a60c27{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}, null]
+15:39:48.930 [main] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.servlet.HashSessionIdManager@791cbf87, null]
+15:39:48.930 [main] DEBUG org.mortbay.log - stopped [org.jvnet.hudson.test.ThreadPoolImpl@2cf23c81, null]
+15:39:48.930 [main] DEBUG org.mortbay.log - stopped [Server@79e18e38, null]
+15:39:48.916 [Jetty Thread Pool] DEBUG org.mortbay.log - EXCEPTION 
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:203) ~[?:1.8.0_45]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_45]
+	at org.mortbay.io.ByteArrayBuffer.readFrom(ByteArrayBuffer.java:382) ~[jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.io.bio.StreamEndPoint.fill(StreamEndPoint.java:114) ~[jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.bio.SocketConnector$Connection.fill(SocketConnector.java:198) ~[jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:290) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228) [jetty-6.1.26.jar:6.1.26]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_45]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_45]
+15:39:48.957 [Jetty Thread Pool] DEBUG org.mortbay.log - EOF
+15:39:49.764 [default-akka.actor.default-dispatcher-5] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:49.766] [default-akka.actor.default-dispatcher-5] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#299136210] to Actor[akka://default/deadLetters] was not delivered. [7] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:39:49.797 [Executing testCliSanity] DEBUG org.mortbay.log - Container Server@bb9ab64 + org.mortbay.jetty.webapp.WebAppContext@a52ca2e{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test} as handler
+15:39:49.798 [Executing testCliSanity] DEBUG org.mortbay.log - Container SecurityHandler@1ad8df52 + ServletHandler@45d6ef73 as handler
+15:39:49.798 [Executing testCliSanity] DEBUG org.mortbay.log - Container SessionHandler@3f29e26 + SecurityHandler@1ad8df52 as handler
+15:39:49.799 [Executing testCliSanity] DEBUG org.mortbay.log - Container SessionHandler@3f29e26 + org.mortbay.jetty.servlet.HashSessionManager@1f6d27cc as sessionManager
+15:39:49.799 [Executing testCliSanity] DEBUG org.mortbay.log - Container org.mortbay.jetty.webapp.WebAppContext@a52ca2e{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test} + SessionHandler@3f29e26 as handler
+15:39:49.799 [Executing testCliSanity] DEBUG org.mortbay.log - Container org.mortbay.jetty.webapp.WebAppContext@a52ca2e{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test} + ErrorPageErrorHandler@4393593c as error
+15:39:49.800 [Executing testCliSanity] DEBUG org.mortbay.log - Container Server@bb9ab64 + org.jvnet.hudson.test.ThreadPoolImpl@314c8b4a as threadpool
+15:39:49.809 [Executing testCliSanity] DEBUG org.mortbay.log - Container Server@bb9ab64 + SocketConnector@0.0.0.0:0 as connector
+15:39:49.809 [Executing testCliSanity] DEBUG org.mortbay.log - Container Server@bb9ab64 + Realm[default]==[bob, alice, charlie] as realm
+15:39:49.810 [Executing testCliSanity] INFO  org.mortbay.log - jetty-6.1.26
+15:39:49.810 [Executing testCliSanity] DEBUG org.mortbay.log - started [Realm[default]==[bob, alice, charlie], null]
+15:39:49.810 [Executing testCliSanity] DEBUG org.mortbay.log - started [org.jvnet.hudson.test.ThreadPoolImpl@314c8b4a, null]
+15:39:49.811 [Executing testCliSanity] DEBUG org.mortbay.log - Thread Context class loader is: sun.misc.Launcher$AppClassLoader@42a57993
+15:39:49.816 [Executing testCliSanity] DEBUG org.mortbay.log - Parent class loader is: sun.misc.Launcher$ExtClassLoader@6d8a00e3
+15:39:49.817 [Executing testCliSanity] DEBUG org.mortbay.log - Created temp dir work/Jetty_0_0_0_0_0_jenkins.for.test___.bj8wp3 for org.mortbay.jetty.webapp.WebAppContext@a52ca2e{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}
+15:39:49.818 [Executing testCliSanity] DEBUG org.mortbay.log - parse: jar:file:/home/eerilio/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar!/org/mortbay/jetty/webapp/webdefault.xml
+15:39:49.818 [Executing testCliSanity] DEBUG org.mortbay.log - parsing: sid=jar:file:/home/eerilio/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar!/org/mortbay/jetty/webapp/webdefault.xml,pid=null
+15:39:49.851 [Executing testCliSanity] DEBUG org.mortbay.log - ContextParam: org.mortbay.jetty.webapp.NoTLDJarPattern=start.jar|ant-.*\.jar|dojo-.*\.jar|jetty-.*\.jar|jsp-api-.*\.jar|junit-.*\.jar|servlet-api-.*\.jar|dnsns\.jar|rt\.jar|jsse\.jar|tools\.jar|sunpkcs11\.jar|sunjce_provider\.jar|xerces.*\.jar
+15:39:49.858 [Executing testCliSanity] INFO  org.mortbay.log - NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+15:39:49.869 [Executing testCliSanity] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:49.869 [Executing testCliSanity] DEBUG org.mortbay.log - pathFilters=[]
+15:39:49.870 [Executing testCliSanity] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:49.870 [Executing testCliSanity] DEBUG org.mortbay.log - servletPathMap=null
+15:39:49.870 [Executing testCliSanity] DEBUG org.mortbay.log - servletNameMap=[null, null]
+15:39:49.875 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + default as servlet
+15:39:49.875 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + jsp as servlet
+15:39:49.875 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + (S=default,[/]) as servletMapping
+15:39:49.876 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + (S=jsp,[*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]) as servletMapping
+15:39:49.876 [Executing testCliSanity] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:49.876 [Executing testCliSanity] DEBUG org.mortbay.log - pathFilters=[]
+15:39:49.876 [Executing testCliSanity] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:49.876 [Executing testCliSanity] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /=default}
+15:39:49.877 [Executing testCliSanity] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp}
+15:39:49.877 [Executing testCliSanity] DEBUG org.mortbay.log - Try webapp=file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/, exists=true, directory=true
+15:39:49.878 [Executing testCliSanity] DEBUG org.mortbay.log - webapp=file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/
+15:39:49.878 [Executing testCliSanity] DEBUG org.mortbay.log - parse: file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/WEB-INF/web.xml
+15:39:49.878 [Executing testCliSanity] DEBUG org.mortbay.log - parsing: sid=file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/WEB-INF/web.xml,pid=null
+15:39:49.884 [Executing testCliSanity] DEBUG org.mortbay.log - Element env-entry not handled in org.mortbay.jetty.webapp.WebXmlConfiguration@6df3e44c
+15:39:49.890 [Executing testCliSanity] DEBUG org.mortbay.log - <env-entry>
+    <env-entry-name>HUDSON_HOME</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value/>
+  </env-entry>
+15:39:49.891 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + encoding-filter as filter
+15:39:49.891 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + compression-filter as filter
+15:39:49.892 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + authentication-filter as filter
+15:39:49.892 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + csrf-filter as filter
+15:39:49.892 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + plugins-filter as filter
+15:39:49.893 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + (F=encoding-filter,[/*],[],0) as filterMapping
+15:39:49.893 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + (F=compression-filter,[/*],[],0) as filterMapping
+15:39:49.893 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + (F=authentication-filter,[/*],[],0) as filterMapping
+15:39:49.893 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + (F=csrf-filter,[/*],[],0) as filterMapping
+15:39:49.893 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + (F=plugins-filter,[/*],[],0) as filterMapping
+15:39:49.894 [Executing testCliSanity] DEBUG org.mortbay.log - filterNameMap={csrf-filter=csrf-filter, encoding-filter=encoding-filter, compression-filter=compression-filter, plugins-filter=plugins-filter, authentication-filter=authentication-filter}
+15:39:49.894 [Executing testCliSanity] DEBUG org.mortbay.log - pathFilters=[(F=encoding-filter,[/*],[],0), (F=compression-filter,[/*],[],0), (F=authentication-filter,[/*],[],0), (F=csrf-filter,[/*],[],0), (F=plugins-filter,[/*],[],0)]
+15:39:49.894 [Executing testCliSanity] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:49.894 [Executing testCliSanity] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /=default}
+15:39:49.894 [Executing testCliSanity] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp}
+15:39:49.895 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + Stapler as servlet
+15:39:49.895 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 + (S=Stapler,[/*]) as servletMapping
+15:39:49.895 [Executing testCliSanity] DEBUG org.mortbay.log - filterNameMap={csrf-filter=csrf-filter, encoding-filter=encoding-filter, compression-filter=compression-filter, plugins-filter=plugins-filter, authentication-filter=authentication-filter}
+15:39:49.905 [Executing testCliSanity] DEBUG org.mortbay.log - pathFilters=[(F=encoding-filter,[/*],[],0), (F=compression-filter,[/*],[],0), (F=authentication-filter,[/*],[],0), (F=csrf-filter,[/*],[],0), (F=plugins-filter,[/*],[],0)]
+15:39:49.906 [Executing testCliSanity] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:49.908 [Executing testCliSanity] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /*=Stapler, /=default}
+15:39:49.908 [Executing testCliSanity] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp, Stapler=Stapler}
+15:39:49.909 [Executing testCliSanity] DEBUG org.mortbay.log - Container Server@bb9ab64 + org.mortbay.jetty.servlet.HashSessionIdManager@2d000e80 as sessionIdManager
+15:39:49.909 [Executing testCliSanity] DEBUG org.mortbay.log - Init SecureRandom.
+15:39:49.909 [Executing testCliSanity] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.HashSessionIdManager@2d000e80, null]
+15:39:49.909 [Executing testCliSanity] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.HashSessionManager@1f6d27cc, null]
+15:39:49.910 [Executing testCliSanity] DEBUG org.mortbay.log - filterNameMap={csrf-filter=csrf-filter, encoding-filter=encoding-filter, compression-filter=compression-filter, plugins-filter=plugins-filter, authentication-filter=authentication-filter}
+15:39:49.910 [Executing testCliSanity] DEBUG org.mortbay.log - pathFilters=[(F=encoding-filter,[/*],[],0), (F=compression-filter,[/*],[],0), (F=authentication-filter,[/*],[],0), (F=csrf-filter,[/*],[],0), (F=plugins-filter,[/*],[],0)]
+15:39:49.911 [Executing testCliSanity] DEBUG org.mortbay.log - servletFilterMap=[null, null]
+15:39:49.911 [Executing testCliSanity] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /*=Stapler, /=default}
+15:39:49.912 [Executing testCliSanity] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp, Stapler=Stapler}
+15:39:49.912 [Executing testCliSanity] DEBUG org.mortbay.log - starting [ServletHandler@45d6ef73, null]
+15:39:49.915 [Executing testCliSanity] DEBUG org.mortbay.log - started [ServletHandler@45d6ef73, null]
+15:39:49.916 [Executing testCliSanity] DEBUG org.mortbay.log - starting [SecurityHandler@1ad8df52, null]
+15:39:49.916 [Executing testCliSanity] DEBUG org.mortbay.log - started [SecurityHandler@1ad8df52, null]
+15:39:49.917 [Executing testCliSanity] DEBUG org.mortbay.log - starting [SessionHandler@3f29e26, null]
+15:39:49.917 [Executing testCliSanity] DEBUG org.mortbay.log - started [SessionHandler@3f29e26, null]
+15:39:49.917 [Executing testCliSanity] DEBUG org.mortbay.log - starting [org.mortbay.jetty.webapp.WebAppContext@a52ca2e{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}, null]
+15:39:49.917 [Executing testCliSanity] DEBUG org.mortbay.log - starting [ErrorPageErrorHandler@4393593c, null]
+15:39:49.918 [Executing testCliSanity] DEBUG org.mortbay.log - started [ErrorPageErrorHandler@4393593c, null]
+15:39:49.919 [Executing testCliSanity] DEBUG org.mortbay.log - Holding [class hudson.util.CharacterEncodingFilter, null]
+15:39:49.920 [Executing testCliSanity] DEBUG org.mortbay.log - started [encoding-filter, null]
+15:39:49.921 [Executing testCliSanity] DEBUG org.mortbay.log - Holding [class org.kohsuke.stapler.compression.CompressionFilter, null]
+15:39:49.923 [Executing testCliSanity] DEBUG org.mortbay.log - started [compression-filter, null]
+15:39:49.924 [Executing testCliSanity] DEBUG org.mortbay.log - Holding [class hudson.security.HudsonFilter, null]
+15:39:49.926 [Executing testCliSanity] DEBUG org.mortbay.log - started [authentication-filter, null]
+15:39:49.927 [Executing testCliSanity] DEBUG org.mortbay.log - Holding [class hudson.security.csrf.CrumbFilter, null]
+15:39:49.927 [Executing testCliSanity] DEBUG org.mortbay.log - started [csrf-filter, null]
+15:39:49.927 [Executing testCliSanity] DEBUG org.mortbay.log - Holding [class hudson.util.PluginServletFilter, null]
+15:39:49.927 [Executing testCliSanity] DEBUG org.mortbay.log - started [plugins-filter, null]
+15:39:49.927 [Executing testCliSanity] DEBUG org.mortbay.log - Holding [class org.kohsuke.stapler.Stapler, null]
+15:39:49.927 [Executing testCliSanity] DEBUG org.mortbay.log - started [Stapler, null]
+15:39:49.932 [Executing testCliSanity] DEBUG org.mortbay.log - Holding [class org.mortbay.jetty.servlet.DefaultServlet, null]
+15:39:49.935 [Executing testCliSanity] DEBUG org.mortbay.log - started [org.mortbay.jetty.servlet.DefaultServlet$NIOResourceCache@3d98d138, null]
+15:39:49.935 [Executing testCliSanity] DEBUG org.mortbay.log - started [org.mortbay.jetty.ResourceCache@f2ce6b, null]
+15:39:49.936 [Executing testCliSanity] DEBUG org.mortbay.log - resource base = file:/home/eerilio/Documents/Akka/Akka-Listeners/target/jenkins-for-test/
+15:39:49.936 [Executing testCliSanity] DEBUG org.mortbay.log - started [default, null]
+15:39:49.936 [Executing testCliSanity] DEBUG org.mortbay.log - Holding [class org.mortbay.servlet.NoJspServlet, null]
+15:39:49.936 [Executing testCliSanity] DEBUG org.mortbay.log - started [jsp, null]
+15:39:49.936 [Executing testCliSanity] DEBUG org.mortbay.log - started [org.mortbay.jetty.webapp.WebAppContext@a52ca2e{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}, null]
+15:39:49.937 [Executing testCliSanity] DEBUG org.mortbay.log - starting [Server@bb9ab64, null]
+15:39:49.937 [Executing testCliSanity] INFO  org.mortbay.log - Started [SocketConnector@0.0.0.0:58734, null]
+15:39:49.937 [Executing testCliSanity] DEBUG org.mortbay.log - started [SocketConnector@0.0.0.0:58734, null]
+15:39:49.938 [Executing testCliSanity] DEBUG org.mortbay.log - started [Server@bb9ab64, null]
+May 14, 2015 3:39:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 14, 2015 3:39:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 14, 2015 3:39:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 14, 2015 3:39:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 14, 2015 3:39:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 14, 2015 3:39:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+15:39:52.188 [default-akka.actor.default-dispatcher-8] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:52.189] [default-akka.actor.default-dispatcher-8] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#-164206698] to Actor[akka://default/deadLetters] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+May 14, 2015 3:39:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+15:39:52.210 [default-akka.actor.default-dispatcher-3] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:52.210] [default-akka.actor.default-dispatcher-7] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#-164206698] to Actor[akka://default/deadLetters] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:39:52.216 [default-akka.actor.default-dispatcher-3] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:52.217] [default-akka.actor.default-dispatcher-7] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#-164206698] to Actor[akka://default/deadLetters] was not delivered. [3] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:39:52.219 [default-akka.actor.default-dispatcher-7] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:52.220] [default-akka.actor.default-dispatcher-7] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#-164206698] to Actor[akka://default/deadLetters] was not delivered. [4] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+15:39:52.222 [default-akka.actor.default-dispatcher-3] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:52.222] [default-akka.actor.default-dispatcher-3] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#-164206698] to Actor[akka://default/deadLetters] was not delivered. [5] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+=== Starting CliSanityTest.testCliSanity
+15:39:52.261 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [Realm[default]==[bob, alice, charlie], null]
+15:39:52.263 [Executing testCliSanity] INFO  org.mortbay.log - Stopped [SocketConnector@0.0.0.0:58734, null]
+15:39:52.263 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [SocketConnector@0.0.0.0:0, null]
+15:39:52.263 [Executing testCliSanity] DEBUG org.mortbay.log - stopping [Server@bb9ab64, null]
+15:39:52.263 [Executing testCliSanity] DEBUG org.mortbay.log - stopping [org.mortbay.jetty.webapp.WebAppContext@a52ca2e{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}, null]
+15:39:52.263 [Executing testCliSanity] DEBUG org.mortbay.log - stopping [SessionHandler@3f29e26, null]
+15:39:52.263 [Executing testCliSanity] DEBUG org.mortbay.log - stopping [SecurityHandler@1ad8df52, null]
+15:39:52.263 [Executing testCliSanity] DEBUG org.mortbay.log - stopping [ServletHandler@45d6ef73, null]
+15:39:52.264 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [plugins-filter, null]
+15:39:52.264 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [csrf-filter, null]
+15:39:52.265 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [authentication-filter, null]
+15:39:52.266 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [compression-filter, null]
+15:39:52.266 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [encoding-filter, null]
+15:39:52.266 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [Stapler, null]
+15:39:52.266 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [jsp, null]
+15:39:52.266 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.servlet.DefaultServlet$NIOResourceCache@3d98d138, null]
+15:39:52.266 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.ResourceCache@f2ce6b, null]
+15:39:52.273 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [default, null]
+15:39:52.273 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [ServletHandler@45d6ef73, null]
+15:39:52.273 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [SecurityHandler@1ad8df52, null]
+15:39:52.273 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.servlet.HashSessionManager@1f6d27cc, null]
+15:39:52.280 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [SessionHandler@3f29e26, null]
+15:39:52.280 [Executing testCliSanity] DEBUG org.mortbay.log - stopping [ErrorPageErrorHandler@4393593c, null]
+15:39:52.280 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [ErrorPageErrorHandler@4393593c, null]
+15:39:52.280 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - plugins-filter as filter
+15:39:52.280 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - csrf-filter as filter
+15:39:52.280 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - authentication-filter as filter
+15:39:52.280 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - compression-filter as filter
+15:39:52.281 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - encoding-filter as filter
+15:39:52.281 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - (F=plugins-filter,[/*],[],0) as filterMapping
+15:39:52.281 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - (F=csrf-filter,[/*],[],0) as filterMapping
+15:39:52.281 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - (F=authentication-filter,[/*],[],0) as filterMapping
+15:39:52.281 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - (F=compression-filter,[/*],[],0) as filterMapping
+15:39:52.281 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - (F=encoding-filter,[/*],[],0) as filterMapping
+15:39:52.281 [Executing testCliSanity] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:52.282 [Executing testCliSanity] DEBUG org.mortbay.log - pathFilters=null
+15:39:52.282 [Executing testCliSanity] DEBUG org.mortbay.log - servletFilterMap=null
+15:39:52.282 [Executing testCliSanity] DEBUG org.mortbay.log - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /*=Stapler, /=default}
+15:39:52.282 [Executing testCliSanity] DEBUG org.mortbay.log - servletNameMap={default=default, jsp=jsp, Stapler=Stapler}
+15:39:52.282 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - Stapler as servlet
+15:39:52.282 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - jsp as servlet
+15:39:52.282 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - default as servlet
+15:39:52.282 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - (S=Stapler,[/*]) as servletMapping
+15:39:52.283 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - (S=jsp,[*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]) as servletMapping
+15:39:52.289 [Executing testCliSanity] DEBUG org.mortbay.log - Container ServletHandler@45d6ef73 - (S=default,[/]) as servletMapping
+15:39:52.289 [Executing testCliSanity] DEBUG org.mortbay.log - filterNameMap=[null, null]
+15:39:52.289 [Executing testCliSanity] DEBUG org.mortbay.log - pathFilters=null
+15:39:52.289 [Executing testCliSanity] DEBUG org.mortbay.log - servletFilterMap=null
+15:39:52.289 [Executing testCliSanity] DEBUG org.mortbay.log - servletPathMap=null
+15:39:52.289 [Executing testCliSanity] DEBUG org.mortbay.log - servletNameMap=[null, null]
+15:39:52.289 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.webapp.WebAppContext@a52ca2e{,/home/eerilio/Documents/Akka/Akka-Listeners/./target/jenkins-for-test}, null]
+15:39:52.290 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [org.mortbay.jetty.servlet.HashSessionIdManager@2d000e80, null]
+15:39:52.290 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [org.jvnet.hudson.test.ThreadPoolImpl@314c8b4a, null]
+15:39:52.290 [Executing testCliSanity] DEBUG org.mortbay.log - stopped [Server@bb9ab64, null]
+15:39:52.660 [default-akka.actor.default-dispatcher-7] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor - Savable Listener Recieved: Saved
+[INFO] [05/14/2015 15:39:52.661] [default-akka.actor.default-dispatcher-7] [akka://default/deadLetters] Message [java.lang.String] from Actor[akka://default/user/$c#-164206698] to Actor[akka://default/deadLetters] was not delivered. [6] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.

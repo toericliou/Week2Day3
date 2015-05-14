@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Plugin-Class: org.jenkinsci.plugins.AkkaListeners.AkkaPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: Akka-Listeners
+Long-Name: TODO Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-05/14/2015 15:29-eerilio)
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Developers: 
+Libraries: /home/eerilio/Documents/Akka/Akka-Listeners/target/classes,
+ /home/eerilio/.m2/repository/com/typesafe/config/1.2.1/config-1.2.1.j
+ ar,/home/eerilio/.m2/repository/org/apache/logging/log4j/log4j-api/2.
+ 1/log4j-api-2.1.jar,/home/eerilio/.m2/repository/org/scala-lang/scala
+ -library/2.11.5/scala-library-2.11.5.jar,/home/eerilio/.m2/repository
+ /org/apache/logging/log4j/log4j-slf4j-impl/2.1/log4j-slf4j-impl-2.1.j
+ ar,/home/eerilio/.m2/repository/org/projectlombok/lombok/1.14.8/lombo
+ k-1.14.8.jar,/home/eerilio/.m2/repository/com/typesafe/akka/akka-acto
+ r_2.11/2.3.9/akka-actor_2.11-2.3.9.jar,/home/eerilio/.m2/repository/o
+ rg/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar,/home/eerilio/.m2/reposi
+ tory/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar
+Resource-Path: /home/eerilio/Documents/Akka/Akka-Listeners/src/main/we
+ bapp
+
