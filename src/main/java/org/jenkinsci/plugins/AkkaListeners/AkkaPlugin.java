@@ -17,6 +17,8 @@ public class AkkaPlugin extends Plugin {
 
     private ActorSystem system = ActorSystem.create();
 
+    private static AkkaPlugin INSTANCE;
+
     @Getter
     private static ActorRef itemListenerActorRef;
 
@@ -35,6 +37,12 @@ public class AkkaPlugin extends Plugin {
         runListenerActorRef = system.actorOf(Props.create(RunListenerActor.class));
         savableListenerActorRef = system.actorOf(Props.create(SavableListenerActor.class));
         buildListenerActorRef = system.actorOf(Props.create(BuildListenerActor.class));
+    }
+
+    public AkkaPlugin getInstance(){
+        if(INSTANCE ==null)
+            return INSTANCE=new AkkaPlugin();
+        return null;
     }
 
 

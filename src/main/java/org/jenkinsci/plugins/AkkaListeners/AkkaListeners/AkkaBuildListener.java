@@ -6,6 +6,8 @@ import hudson.console.ConsoleNote;
 import hudson.model.BuildListener;
 import hudson.model.Cause;
 import hudson.model.Result;
+import lombok.Getter;
+import lombok.Setter;
 import org.jenkinsci.plugins.AkkaListeners.AkkaPlugin;
 
 import java.io.IOException;
@@ -19,6 +21,8 @@ import java.util.List;
 @Extension
 public class AkkaBuildListener implements BuildListener {
 
+    @Getter
+    @Setter
     private ActorRef buildListenerActorRef = AkkaPlugin.getBuildListenerActorRef();
 
     @Override
@@ -28,7 +32,7 @@ public class AkkaBuildListener implements BuildListener {
 
     @Override
     public void finished(Result result) {
-        buildListenerActorRef.tell("Finshed", buildListenerActorRef);
+        buildListenerActorRef.tell("Finished", buildListenerActorRef);
     }
 
     @Override

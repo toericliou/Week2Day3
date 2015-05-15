@@ -10,13 +10,19 @@ import static org.junit.Assert.*;
  */
 public class AkkaPluginTest {
 
+    private AkkaPlugin unitUnderTest;
+
     @Before
     public void setUp() throws Exception {
-
+        unitUnderTest = new AkkaPlugin();
     }
 
     @Test
-    public void test(){
-
+    public void start(){
+        unitUnderTest.start();
+        assertNotNull(unitUnderTest.getBuildListenerActorRef());
+        assertNotNull(unitUnderTest.getItemListenerActorRef());
+        assertNotNull(unitUnderTest.getSavableListenerActorRef());
+        assertNotNull(unitUnderTest.getRunListenerActorRef());
     }
 }

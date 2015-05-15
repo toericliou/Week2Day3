@@ -4,6 +4,8 @@ import akka.actor.*;
 import hudson.Extension;
 import hudson.model.*;
 import hudson.model.listeners.ItemListener;
+import lombok.Getter;
+import lombok.Setter;
 import org.jenkinsci.plugins.AkkaListeners.AkkaPlugin;
 
 
@@ -13,24 +15,26 @@ import org.jenkinsci.plugins.AkkaListeners.AkkaPlugin;
 @Extension
 public class AkkaItemListener extends ItemListener {
 
-    private ActorRef itemListener = AkkaPlugin.getItemListenerActorRef();
+    @Getter
+    @Setter
+    private ActorRef itemActorRef = AkkaPlugin.getItemListenerActorRef();
 
     @Override
     public void onCreated(Item item) {
         super.onCreated(item);
-        itemListener.tell("Item Created", itemListener);
+        itemActorRef.tell("Item Created", itemActorRef);
     }
 
     @Override
     public void onDeleted(Item item) {
         super.onDeleted(item);
-        itemListener.tell("Item Deleted", itemListener);
+        itemActorRef.tell("Item Deleted", itemActorRef);
 
     }
 
     @Override
     public void onRenamed(Item item, String oldName, String newName) {
         super.onRenamed(item, oldName, newName);
-        itemListener.tell("Item Renamed", itemListener);
+        itemActorRef.tell("Item Renamed", itemActorRef);
     }
 }

@@ -4,6 +4,7 @@ import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
 import akka.testkit.TestActorRef;
+
 import org.jenkinsci.plugins.AkkaListeners.ActorRefs.SavableListenerActor;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,6 +12,7 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
+import lombok.extern.log4j.Log4j2;
 
 
 import static org.junit.Assert.*;
@@ -18,6 +20,8 @@ import static org.junit.Assert.*;
 /**
  * Created by eerilio on 5/14/15.
  */
+@Log4j2
+//Test SavableListener and SavableActor
 public class AkkaSavableListenerTest {
 
     ActorSystem system = ActorSystem.apply();
@@ -41,6 +45,12 @@ public class AkkaSavableListenerTest {
         assertNotNull(listener.getSavableActorRef());
         listener.onChange(null, null);
         assertEquals("onChange", savableActorRef.underlyingActor().getLastMessage());
+    }
+
+    @Test
+    public void testOnSaved(){
+        savableActorRef.tell("onChange", ActorRef.noSender());
+        assertEquals(savableActorRef.underlyingActor().getLastMessage(), "onChange");
     }
 
     /*@Test

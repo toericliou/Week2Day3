@@ -5,6 +5,8 @@ import hudson.Extension;
 import hudson.model.Run;
 import hudson.model.TaskListener;
 import hudson.model.listeners.RunListener;
+import lombok.Getter;
+import lombok.Setter;
 import org.jenkinsci.plugins.AkkaListeners.AkkaPlugin;
 
 
@@ -13,7 +15,8 @@ import org.jenkinsci.plugins.AkkaListeners.AkkaPlugin;
  */
 @Extension
 public class AkkaRunListener<R extends Run> extends RunListener<R> {
-
+    @Getter
+    @Setter
     private ActorRef runListener = AkkaPlugin.getRunListenerActorRef();
 
     @Override
