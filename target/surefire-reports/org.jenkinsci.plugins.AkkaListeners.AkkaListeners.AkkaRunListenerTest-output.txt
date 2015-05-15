@@ -1,0 +1,6 @@
+10:37:32.307 [main] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.RunListenerActor - Run Listener Completed
+10:37:32.329 [main] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.RunListenerActor - Run Listener Triggered and Started
+10:37:32.357 [main] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.RunListenerActor - Run Listener Triggered and Started
+[INFO] [05/15/2015 10:37:32.357] [default-akka.actor.default-dispatcher-3] [akka://default/deadLetters] Message [java.lang.String] from TestActor[akka://default/user/runTest] to Actor[akka://default/deadLetters] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+10:37:32.358 [main] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.RunListenerActor - Run Listener Completed
+[INFO] [05/15/2015 10:37:32.359] [default-akka.actor.default-dispatcher-3] [akka://default/deadLetters] Message [java.lang.String] from TestActor[akka://default/user/runTest] to Actor[akka://default/deadLetters] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.

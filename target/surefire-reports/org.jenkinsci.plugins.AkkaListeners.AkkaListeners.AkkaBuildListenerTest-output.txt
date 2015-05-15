@@ -1,0 +1,6 @@
+10:37:32.384 [main] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.BuildListenerActor - Build Listener Triggered: Build Started
+10:37:32.385 [main] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.BuildListenerActor - Build Listener Triggered: Build Finished
+[INFO] [05/15/2015 10:37:32.387] [default-akka.actor.default-dispatcher-3] [akka://default/deadLetters] Message [java.lang.String] from TestActor[akka://default/user/buildTest] to Actor[akka://default/deadLetters] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[INFO] [05/15/2015 10:37:32.388] [default-akka.actor.default-dispatcher-3] [akka://default/deadLetters] Message [java.lang.String] from TestActor[akka://default/user/buildTest] to Actor[akka://default/deadLetters] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+10:37:32.423 [main] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.BuildListenerActor - Build Listener Triggered: Build Finished
+10:37:32.468 [main] INFO  org.jenkinsci.plugins.AkkaListeners.ActorRefs.BuildListenerActor - Build Listener Triggered: Build Started
